@@ -111,7 +111,7 @@ call s:hi("PreProc",     s:gui.blue,       "",               "", "", "")
 call s:hi("SpecialMacro",     s:gui.blue,       "",               "", "", "bold")
 call s:hi("Search",      s:gui.none,       s:gui.none,       "", "", "underline")
 call s:hi("InSearch",    s:gui.background, s:gui.foreground, "", "", "")
-call s:hi("Todo",        s:gui.red,        s:gui.none,       "", "", "")
+call s:hi("Todo",        s:gui.foreground, s:gui.red,       "", "", "")
 call s:hi("Special",     s:gui.orange,     "",               "", "", "")
 
 
